@@ -1,0 +1,18 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://rss.orf.at/news.xml
+polling_headers: ''
+polling_body: ''
+id: 173288
+custom_fields:
+- keyname: author_bio
+  name: About This Plugin
+  field_type: author_bio
+  description: Displays the ORF (Austrian public service broadcaster) newsfeed from the official RSS feed.
+  email_address: trmnl@benjaminnussbaum.at
+name: ORF.at Newsfeed
+refresh_interval: 60
